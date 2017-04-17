@@ -1,4 +1,4 @@
-FROM factorial/drupal-docker
+FROM factorial/drupal-docker:php-56
 MAINTAINER stephan@factorial.io
 
 RUN apt-get install -y wget xfonts-base xfonts-75dpi pdftk
